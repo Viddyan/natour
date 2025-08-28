@@ -1,0 +1,23 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "a ecom application",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "cross-env NODE_ENV=production nodemon server.js"
+  },
+  "author": "gyan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0"
+  }
+}
