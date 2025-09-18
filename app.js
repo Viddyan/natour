@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-app.set('query parser', str => require('qs').parse(str));
+// app.set('query parser', str => require('qs').parse(str));
 const morgan = require('morgan');
 if(process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
